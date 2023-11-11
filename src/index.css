@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section {
+  background-color: white;
+  transition: background-color 2s ease-in-out;
+  background-image: linear-gradient(to right, transparent 0%, transparent 100%);
+  background-size: 200% 100%;
+  background-position: -100% 0;
+}
+
+.section.black {
+  background-color: black;
+  color: white;
+}
+
+.section-blur {
+  filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.section-blur::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: overlay;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: reveal 2s ease-in-out;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 1;
+  }
+  50%{
+    opacity:0.5;
+  }
+  100%{
+    opacity:0;
+  }
+}
