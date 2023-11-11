@@ -10,7 +10,7 @@ const Footer = () => {
         <a href="https://github.com/Itshardtofindagoodname" target='_blank' className=" text-3xl hover:text-gray-700 ">
               <FaGithub />
           </a>
-          <a href="https://www.instagram.com/prose_of_midnight/" target='_blank' className=" text-3xl hover:text-red-900 ">
+          <a href="https://www.instagram.com/pirouette_of_philomel/" target='_blank' className=" text-3xl hover:text-red-900 ">
               <FaInstagram/>
           </a>
           <a href="https://www.linkedin.com/in/debarjun-thakur-313288250/" target='_blank' className=" text-3xl hover:text-blue-900 ">
