@@ -1,7 +1,7 @@
 import React from "react";
 import { ImBookmarks, ImBooks, ImCloud} from "react-icons/im";
 import {PiDogFill} from "react-icons/pi";
-import {IoGameControllerOutline} from "react-icons/io5"
+import {IoGameControllerOutline, IoMedical} from "react-icons/io5"
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div className=" p-4 my-20 lg:my-40 mx-auto">
             <p className="text-6xl font-semibold mb-8 md:mb-20 text-center"><span className="font-caveat text-green-400">Projects</span> that I have Build</p>
-            <div className="grid gap-4 md:gap-8 grid-cols-1 lg:grid-cols-3">
+            <div className="grid gap-4 md:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <Card
                     title="Save The Strays"
                     subtitle="Website Built for an Animal Care Organisation"
@@ -26,8 +26,6 @@ const Projects = () => {
                     subtitle="My First API integrated Dictionary Website"
                     href="https://meaningful-enough.netlify.app"
                     Icon={ImBooks} />
-            </div>
-            <div className="grid gap-2 md:gap-8 grid-cols-1 lg:grid-cols-2 mt-4 lg:mx-40 lg:mt-10">
                 <Card
                     title="Weathering"
                     subtitle="Weather Searching app in Flutter"
@@ -38,6 +36,11 @@ const Projects = () => {
                     subtitle="A notes application in Flutter"
                     href="https://www.mediafire.com/file/kvy2nknmboxuuku/Noted.apk/file"
                     Icon={ImBookmarks} />
+                <Card
+                    title="DotScript"
+                    subtitle="An AI based medical information technology"
+                    href="https://dotscript.netlify.app"
+                    Icon={IoMedical} />
             </div>
         </div>
     );
