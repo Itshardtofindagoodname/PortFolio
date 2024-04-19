@@ -127,7 +127,7 @@ const skillsWithIcons = [
     { name: "Figma", icon: <FaFigma size={30} />, link: "https://www.figma.com" },
     { name: "Api Integration", icon: <TbApi size={30} />, link: "https://aws.amazon.com/what-is/api/#:~:text=API%20stands%20for%20Application%20Programming,other%20using%20requests%20and%20responses." },
     { name: "Svelte", icon: <SiSvelte size={30} />, link: "https://svelte.dev" },
-    { name: "Go", icon: <FaGoLang size={30} />, link: "https://go.dev" },
+    { name: "Go", icon: <FaGolang size={30} />, link: "https://go.dev" },
     { name: "C++", icon: <TbBrandCpp size={30} />, link: "https://cplusplus.com" },
     { name: "Tailwind", icon: <SiTailwindcss size={30} />, link: "https://tailwindcss.com" },
     { name: "Flutter", icon: <SiFlutter size={30}/>, link: "https://flutter.dev" }
