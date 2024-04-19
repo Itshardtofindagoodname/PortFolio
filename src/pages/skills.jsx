@@ -13,8 +13,9 @@ import {
     FaSass,
     FaFigma,
 } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 import { TbApi } from "react-icons/tb";
-import { SiSvelte, SiJest, SiTailwindcss, SiFlutter } from "react-icons/si";
+import { SiSvelte, SiTailwindcss, SiFlutter } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 import {IoCaretBackOutline, IoSquare} from "react-icons/io5"
 import {BiSolidHomeAlt2} from "react-icons/bi"
@@ -126,7 +127,7 @@ const skillsWithIcons = [
     { name: "Figma", icon: <FaFigma size={30} />, link: "https://www.figma.com" },
     { name: "Api Integration", icon: <TbApi size={30} />, link: "https://aws.amazon.com/what-is/api/#:~:text=API%20stands%20for%20Application%20Programming,other%20using%20requests%20and%20responses." },
     { name: "Svelte", icon: <SiSvelte size={30} />, link: "https://svelte.dev" },
-    { name: "Jest", icon: <SiJest size={30} />, link: "https://jestjs.io" },
+    { name: "Go", icon: <FaGoLang size={30} />, link: "https://go.dev" },
     { name: "C++", icon: <TbBrandCpp size={30} />, link: "https://cplusplus.com" },
     { name: "Tailwind", icon: <SiTailwindcss size={30} />, link: "https://tailwindcss.com" },
     { name: "Flutter", icon: <SiFlutter size={30}/>, link: "https://flutter.dev" }
