@@ -27,9 +27,9 @@ const Projects = () => {
                     href="https://meaningful-enough.netlify.app"
                     Icon={ImBooks} />
                 <Card
-                    title="Weathering"
-                    subtitle="Weather Searching app in Flutter"
-                    href="https://www.mediafire.com/file/vv56zbipo5flbez/Weathering.apk/file"
+                    title="KingLike"
+                    subtitle="One-stop AI spot for everyone (uses Gemini model)"
+                    href="https://kinglike.netlify.app"
                     Icon={ImCloud} />
                 <Card
                     title="Noted"
